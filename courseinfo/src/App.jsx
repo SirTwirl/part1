@@ -1,3 +1,11 @@
+const Header = (props) => {
+  return (
+    <>
+    <h1>{props.name}</h1>
+    </>
+  )
+}
+
 const App = () => {
   const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
